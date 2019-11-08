@@ -1,0 +1,21 @@
+.page-header{
+    color:white;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    font-family: 'Supermercado One', cursive;
+}
+.page-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.post h1{
+    font-family: 'Supermercado One', cursive;
+}
+.post h1 a {
+    color: black;
+}
+.published{
+    font-style: italic;
+}
