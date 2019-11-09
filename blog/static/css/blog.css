@@ -22,3 +22,6 @@
 .font {
     font-family: 'Supermercado One', cursive;
 }
+.top-menu:hover{
+    text-decoration: underline;
+}
