@@ -1,27 +1,84 @@
-.page-header{
-    color:white;
-    background-color: darkgoldenrod;
-    padding: 20px;
-    margin: 0 0 10px 0;
-    font-family: 'Supermercado One', cursive;
-}
-.page-header a {
-    text-decoration: none;
-    color: white;
-}
-
 .post h1{
-    font-family: 'Supermercado One', cursive;
+   font: Arial;
+   font-weight: bold;
+
 }
 .post h1 a {
     color: black;
+    text-decoration: none;
+}
+.post h1 a:hover{
+    color: #f64c72;
 }
 .published{
     font-style: italic;
 }
 .font {
-    font-family: 'Supermercado One', cursive;
+    font: Arial;
+    font-weight: bold;
 }
-.top-menu:hover{
-    text-decoration: underline;
+
+body{
+    background: white;
+    color: black;
+
+}
+
+hr{
+    border-color: white;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #242582 ;
+
+  padding: 20px 10px;
+  margin-bottom: 30px;
+}
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.header a:hover {
+  background-color: #f64c72;
+  color: white;
+}
+
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+.header-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }

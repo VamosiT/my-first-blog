@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <h1 class="font">Drive Share Links</h1>
+    <p>
+        {% for url in urls %}
+            <a href="{{ url.url }}" target="_blank"> {{ url.title}} </a> <br>
+        {% endfor %}
+
+    </p>
+
+{% endblock %}
+

@@ -17,3 +17,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class URL(models.Model):
+    title = models.CharField(max_length=200)
+    url = models.CharField(max_length=200)
